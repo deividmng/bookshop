@@ -1,0 +1,12 @@
+primero crea la base de datos con my sqlWorkbech 
+con la tabla con el id pk nn title , desc nn , cover  .
+crea dos carpetas backend i client
+en backend vamos a instalar las dependecias pero antes necesitamos i the package.json
+
+npm i epresss i mysql2 nodemo , nodemon es para no tener que estar refescando
+
+add    "start": "nodemon index.js --experimental-modules" para no tener que refrescar la pg cada ves en script
+
+en la parte del cliente usaremos react , para las rutas usamos reat-rourter-dom
+
+la librery cors = El middleware cors se utiliza para habilitar el Cross-Origin Resource Sharing (CORS) en tu servidor. Permite que tu servidor maneje solicitudes provenientes de diferentes dominios, lo cual es especialmente útil cuando estás construyendo APIs que necesitan ser accesibles desde un frontend web que está hospedado en un dominio diferente al del backend.
