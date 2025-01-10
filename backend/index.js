@@ -3,6 +3,17 @@ import express from "express";
 //? importing sql
 import mysql from "mysql2";
 import cors from "cors";
+// //* to use the img 
+// import multer from "multer";
+
+// const upload = multer({dest:'uploads/'})
+
+
+// app.post('/books',upload.single('imgenPerfil') ,(req, res)=> {
+//   console.log(req.file)
+//  res.send('terminal')
+// });
+
 //? calling the a
 const app = express();
 
